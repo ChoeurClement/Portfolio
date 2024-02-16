@@ -168,11 +168,13 @@ section a {
 }
 
 .projet {
+    width: 100%;
     margin-bottom: 2rem;
 }
 
 .projetIMG {
-    width: 100%;
+    max-width: 100%;
+    width: auto;
     height: auto;
     border-radius: 1rem;
     border: 0.2rem solid var(--accent);

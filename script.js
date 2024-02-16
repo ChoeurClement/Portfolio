@@ -5,6 +5,9 @@ let texte = {
         projetsTitre: "Projets",
         projetsDescription: "Réalisation de mon Portfolio (HMTL, CSS, JavaScript)",
         projetsDate: "<span>Août 2023</span>",
+        projetPhotoTitre: "Site web Photographie",
+        projetPhotoDescription: "Création d'un site web permettant a son utilisateur de présenter ses photos",
+        projetPhotoDate: "<span>Février 2024 -> ???</span>",
         competencesTitre: "Compétences",
         competencesDescription1: "Mes compétences en HTML me permettent de créer des bases solides et sémantiquement correctes pour les sites web. Je suis habitué à traduire des concepts en éléments visuels en utilisant des balises HTML, tout en veillant à ce que l'accessibilité soit une priorité pour tous les utilisateurs.",
         competencesDescription2: "Je maîtrise CSS pour donner vie à des designs web captivants et réactifs. Les sélecteurs, les propriétés et les valeurs sont mes outils pour créer des mises en page esthétiques et cohérentes sur diverses plateformes et tailles d'écran. En outre, j'excelle dans l'utilisation des animations et des transitions CSS pour ajouter des éléments interactifs et attrayants aux interfaces utilisateur, améliorant ainsi l'expérience globale des visiteurs.",
@@ -21,6 +24,9 @@ let texte = {
         projetsTitre: "Projects",
         projetsDescription: "Creation of my Portfolio",
         projetsDate: "<span>August 2023</span>",
+        projetPhotoTitre: "Website Photography",
+        projetPhotoDescription: "Creation of a website allowing users to showcase their photos",
+        projetPhotoDate: "<span>February 2024 -> ???</span>",
         competencesTitre: "Skills",
         competencesDescription1: "My HTML skills enable me to create solid, semantically correct foundations for websites. I'm used to translating concepts into visual elements using HTML tags, while ensuring that accessibility is a priority for all users.",
         competencesDescription2: "I master CSS to bring captivating, responsive web designs to life. Selectors, properties and values are my tools for creating aesthetically pleasing, consistent layouts across various platforms and screen sizes. In addition, I excel at using CSS animations and transitions to add engaging, interactive elements to user interfaces, enhancing the overall experience for visitors.",
@@ -39,6 +45,9 @@ let aProposTexteElement = document.getElementById("aProposTexte");
 let projetsTitreElement = document.getElementById("projetsTitre");
 let projetsDescriptionElement = document.getElementById("projetsDescription");
 let projetsDateElement = document.getElementById("projetsDate");
+let projetPhotoTitre = document.getElementById("projetPhotoTitre");
+let projetPhotoDescription = document.getElementById("projetPhotoDescription");
+let projetPhotoDate = document.getElementById("projetPhotoDate");
 let competencesTitreElement = document.getElementById("competencesTitre");
 let competencesDescription1Element = document.getElementById("competencesDescription1");
 let competencesDescription2Element = document.getElementById("competencesDescription2");
@@ -62,6 +71,9 @@ function miseAJourContenu() {
     projetsTitreElement.textContent = texte[langueActuelle].projetsTitre;
     projetsDescriptionElement.textContent = texte[langueActuelle].projetsDescription;
     projetsDateElement.innerHTML = texte[langueActuelle].projetsDate;
+    projetPhotoTitre.textContent = texte[langueActuelle].projetPhotoTitre;
+    projetPhotoDescription.textContent = texte[langueActuelle].projetPhotoDescription;
+    projetPhotoDate.innerHTML = texte[langueActuelle].projetPhotoDate;
     competencesTitreElement.textContent = texte[langueActuelle].competencesTitre;
     competencesDescription1Element.innerHTML = texte[langueActuelle].competencesDescription1;
     competencesDescription2Element.innerHTML = texte[langueActuelle].competencesDescription2;
