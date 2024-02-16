@@ -172,6 +172,11 @@ section a {
     margin-bottom: 2rem;
 }
 
+.photo-projet{
+    display: flex;
+    justify-content: space-around;
+}
+
 .projetIMG {
     max-width: 100%;
     width: auto;
